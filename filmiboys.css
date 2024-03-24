@@ -1,0 +1,386 @@
+
+@media ( min-width:0px) and (max-width:249px)
+{
+            
+            DIV,HR{
+                display: none;
+            }
+
+            .extra{
+                display: flex;
+                
+            }
+
+            
+            BODY{
+                background-color: black;
+                color: RED;
+            }
+}
+
+@media ( min-width:331px) and (max-width:3000px)
+    {
+        
+            DIV,HR{
+                display: none;
+            }
+
+            .extra{
+                display: flex;
+                
+            }
+
+            BODY{
+                background-color: black;
+                color: RED;
+            }
+
+}
+
+
+
+
+@media ( min-width:250px) and (max-width:330px)
+
+{
+
+    .extra{
+
+        display: none;
+
+
+    }
+
+
+/* header*/
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    font-family: arial;
+   
+}
+
+
+
+body{
+    background-color: black;
+}
+
+body::-webkit-scrollbar{
+    width: 0px;
+   
+}
+
+.hr{
+    height: 10px;
+    width: 100%;
+    border: 0;
+    background-color: rgba(128, 128, 128, 0.564);
+    margin-top: 1REM;
+
+}
+
+.hr1{
+    height: 10px;
+    width: 100%;
+    border: 0;
+    background-color: rgba(128, 128, 128, 0.564);
+   
+
+}
+/*header image*/
+
+header{
+    background-image:url("headerbgimg.jpg");
+    background-size: cover;
+    height:23rem;
+    background-color: black;
+
+}
+
+/* header navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:50;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.617);
+    position: fixed;
+    
+   
+}
+
+/* header logo*/
+
+.nav-logo-img{
+
+    height:1.5rem;
+    margin-left:10;
+    
+   
+
+}
+
+/*ul list for nvabar*/
+
+.ul-list{
+    list-style-type: none;
+    display: flex;
+    font-size:.75rem;
+   
+}
+
+.nav-li-a{
+    text-decoration: none;
+    margin-right:.4rem;
+}
+
+.head-body-main-text1a{
+    
+    display: flex;
+    justify-content: center;
+    font-size:1.2rem;
+    font-weight:bold;
+    background-position-x:20rem;
+}
+
+
+.head-body-main-text1b{
+    margin-top:-.5rem;
+    display: flex;
+    justify-content: center;
+    font-size:2.3rem;
+    font-weight:bold;
+    color: red;
+}
+
+
+.head-body-main-text2{
+    margin-top:-.5rem;
+    display: flex;
+    justify-content: center;
+    font-size:.8rem;
+    font-weight:100;
+}
+
+
+.head-body-main-text3{
+    margin-top:4rem;
+    display: flex;
+    justify-content: center;
+    font-size:1rem;
+    font-weight:bold;
+}
+
+
+/* movie */
+
+/* upcoming movies*/
+
+.movietitle{
+
+
+    font-size:1rem;
+    margin-top:1rem;
+    margin-left:.3rem;
+    font-weight:bold;
+}
+
+.movieall{
+    display: flex;
+    height:18.5rem;
+    width:100%;
+    margin-top:1rem;
+    overflow-x: auto;
+}
+
+.movieall::-webkit-scrollbar{
+    width: 0px;
+}
+
+
+
+.movie-img{
+
+    height: 10rem;
+    border-radius:5px;
+}
+
+.movie{
+
+    background-color:rgba(128, 128, 128, 0.564) ;
+ 
+    margin-left:1.5rem;
+    padding:.6rem;
+    border-radius:5px;
+    
+    
+
+}
+
+.movie-text{
+   font-size: smaller;
+   margin-top:5px;
+}
+
+
+/*THIS MONTH MOVIES*/
+
+.movie-btn{
+
+    margin-top:.5rem;
+    background-color: red;
+    border: 0;
+    padding: 5px;
+    height:1.5rem;
+    border-radius:5px;
+}
+
+
+/*telegram channels*/
+
+.telegramtitle{
+    
+    font-size:1.2rem;
+    margin-top:1rem;
+    margin-left:.3rem;
+    font-weight:bold;
+
+}
+
+.telegrambottitle{
+    font-size:.8rem;
+    margin-top:1rem;
+    margin-left:1rem;
+    font-weight:bold;
+
+}
+
+.telegrambot{
+    display: flex;
+    overflow-x: auto;
+}
+
+.telegrambot::-webkit-scrollbar{
+    width: 0px;
+}
+
+
+.telegram{
+    
+    background-color:rgba(128, 128, 128, 0.564) ;
+   
+    margin-left:1.5rem;
+    padding:.6rem;
+    border-radius:5px;
+    width: 20rem;
+    margin-top:1rem;
+    
+}
+
+.telegramimg{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.telegram-img{
+
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    
+
+   
+}
+
+.telegram-text{
+    text-align: center;
+}
+
+.telegramchannelbtndiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+}
+
+.telegramchannelbtn{
+    height:2.7rem;
+    width:10rem;
+    background-color: red;
+    border: 0;
+    padding:.5rem;
+    border-radius: 5px;
+    
+}
+
+.jointitle{
+    font-weight:bold;
+    text-align: center;
+    margin-top: 20px;
+    font-size:.9rem;
+}
+
+.joinextra{
+    text-decoration: none;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:6rem;
+}
+
+
+.hr3{
+    height:2px;
+    border:0;
+    background-color: rgba(128, 128, 128, 0.564);
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.footercopyright{
+    font-size:.7rem;
+    margin-top:.3rem;
+    margin-bottom: .3rem;
+    text-align: center;
+    font-weight: lighter;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
